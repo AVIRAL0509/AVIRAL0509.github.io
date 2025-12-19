@@ -298,7 +298,7 @@ nav .right a span {
 }
 @media (max-width: 450px) {
   nav {
-    padding: 0 10px;
+    padding: 0 5px;
   }
 
   nav .right a {
