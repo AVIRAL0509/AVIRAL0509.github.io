@@ -265,7 +265,7 @@ nav .right a span {
     font-size: 22px;
   }
 
-  nav .right a :last-child {
+  nav .right a:last-child {
     color: var(--text-color);
     background-color: transparent;
     padding: 0;
