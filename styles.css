@@ -366,4 +366,29 @@ nav .right a span {
   .skills-section .cells .cell span {
     font-size: 15px;
   }
+
+  /* PROJECTS TEXT */
+  .project-section .text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+
+  /* WHY AUSBILDUNG */
+  .ausbildung-section h2 {
+    font-size: 28px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .ausbildung-section p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+
+  .ausbildung-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
