@@ -296,3 +296,22 @@ nav .right a span {
     padding: 0 20px;
   }
 }
+@media (max-width: 450px) {
+  nav {
+    padding: 0 10px;
+  }
+
+  nav .right a {
+    font-size: 17px;
+  }
+
+  nav .right a:last-child {
+    color: var(--text-color);
+    background-color: transparent;
+    padding: 0;
+  }
+
+  nav .right a span {
+    display: none;
+  }
+}
