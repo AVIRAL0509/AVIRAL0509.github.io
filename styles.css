@@ -130,7 +130,10 @@ nav .right a span {
 
 .skills-section .text {
   text-align: center;
-  margin-bottom: 20px;
+  max-width: 700px;
+  padding: 0 20;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .skills-section .cells {
@@ -170,6 +173,13 @@ nav .right a span {
 .project-section h2 {
   text-align: center;
   font-size: 35px;
+}
+.project-section .text {
+  text-align: center;
+  max-width: 650px;
+  padding: 0 20;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .projects-container {
@@ -244,6 +254,25 @@ nav .right a span {
   transform: translateY(-2px);
   box-shadow: 0 0 6px rgba(255, 0, 0, 0.4), 0 0 12px rgba(0, 0, 255, 0.4),
     0 0 18px rgba(0, 255, 0, 0.4);
+}
+
+/* ausbuildung */
+.ausbildung-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ausbildung-section h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.ausbildung-section p {
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 /* ================= CONTACT ================= */
