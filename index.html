@@ -23,11 +23,6 @@
     <link rel="stylesheet" href="styles.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script>
-      (function () {
-        emailjs.init("_caQxeSLChfYaIti3DYM9");
-      })();
-    </script>
 
     <title>Portfolio</title>
   </head>
@@ -165,7 +160,7 @@
             </p>
           </div>
 
-          <form id="contact-form">
+          <form action="https://formspree.io/f/mkowgbel" method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required />
 
@@ -176,10 +171,17 @@
             <textarea id="message" name="message" rows="10" required></textarea>
 
             <button type="submit">Send Message</button>
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://aviral0509.github.io"
+            />
+
+            <input type="text" name="_gotcha" style="display: none" />
           </form>
         </div>
       </section>
     </main>
-    <script src="email.js"></script>
   </body>
 </html>
